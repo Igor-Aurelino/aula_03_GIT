@@ -1,0 +1,30 @@
+#Ignorar a pasta de configuração do vscode
+.vscode/
+
+#Ignorar uma pasta chamada "temporaria"
+#e seu conteúdo
+temporaria/
+
+#Ignorar subpastas
+imagens/preview/
+imagens/outrapasta/
+
+#Ignorar um arquivo específico
+pagina2.html
+
+#Ignorar um arquivo específico
+pagina3.html
+
+#Não ignorar um aquivo mesmo que exista uma regra
+!pagina3.html
+
+#Não ignorar um aquivo mesmo que exista uma regra
+!imagens/preview/logomarca.png
+
+#Ignorar arquivos que terminem com
+#a extensão .test -> Exemplo: aula.test
+*.test
+
+#Ignorar arquivos .pdf dentro da pasta
+#detalhes/relatorios
+detalhes/relatorios/*.pdf
